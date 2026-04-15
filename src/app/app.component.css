@@ -206,3 +206,21 @@ footer {
   margin-top: 10px;
   opacity: 0.5 !important;
 }
+.view-work-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border: 2px solid #C5A059; /* Your Gold */
+  color: #C5A059;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 50px; /* Makes it look like a pill/button */
+  transition: all 0.3s ease;
+}
+
+.view-work-btn:hover {
+  background-color: #25D366; /* Official WhatsApp Green */
+  border-color: #25D366;
+  color: rgb(154, 129, 6);
+  transform: translateY(-3px); /* Lifts it up slightly when hovered */
+  box-shadow: 0 10px 20px rgba(37, 211, 102, 0.3);
+}
