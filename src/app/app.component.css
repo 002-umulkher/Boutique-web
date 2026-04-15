@@ -164,3 +164,45 @@ footer {
   opacity: 0.6;
   font-size: 0.8rem;
 }
+.developer-footer {
+  margin-top: 80px;
+  padding: 40px 20px;
+  background: rgba(0, 0, 0, 0.4); /* Darker than the background for contrast */
+  text-align: center;
+  border-top: 1px solid rgba(197, 160, 89, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.footer-content p {
+  font-size: 0.9rem;
+  color: #ffffff;
+  opacity: 0.8;
+  letter-spacing: 1px;
+}
+
+.dev-links {
+  margin: 15px 0;
+}
+
+.dev-links a {
+  color: #C5A059; /* Your Gold color */
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.3s;
+}
+
+.dev-links a:hover {
+  opacity: 0.7;
+}
+
+.separator {
+  margin: 0 10px;
+  color: rgba(197, 160, 89, 0.5);
+}
+
+.legit-badge {
+  font-size: 0.7rem !important;
+  text-transform: uppercase;
+  margin-top: 10px;
+  opacity: 0.5 !important;
+}
