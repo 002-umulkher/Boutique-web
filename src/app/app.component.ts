@@ -13,9 +13,9 @@ export class AppComponent {
   phoneNumber = '254791660162'; 
 
   products = [
-    { id: 1, name: 'Golden Sand Abaya', price: '5,500 KES', img: 'https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?q=80&w=500' },
-    { id: 2, name: 'Midnight Silk Hijab', price: '1,200 KES', img: 'https://images.unsplash.com/photo-1609357605129-26f69add5d6e?q=80&w=500' },
-    { id: 3, name: 'Premium Tote Bag', price: '2,500 KES', img: 'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=500' },
+    { id: 1, name: 'Golden Abaya', price: '5,500 KES', img: 'https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?q=80&w=500' },
+    { id: 2, name: 'Silk Hijab', price: '1,200 KES', img: 'https://images.unsplash.com/photo-1609357605129-26f69add5d6e?q=80&w=500' },
+    { id: 3, name: 'Tote Bag', price: '500 KES', img: 'https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=500' },
     { id: 4, name: 'Classic Black Abaya', price: '6,000 KES', img: 'https://images.unsplash.com/photo-1560012753-48098c772b7a?q=80&w=500' }
   ];
 
