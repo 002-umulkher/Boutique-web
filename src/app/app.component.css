@@ -1,0 +1,125 @@
+/* Ensure the background stays dark green */
+:host {
+  display: block;
+  min-height: 100vh;
+  background-color: #426e4e;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+/* NAVBAR & BRANDING */
+.navbar {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(197, 160, 89, 0.2);
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  letter-spacing: 4px;
+  color: #efbd62; /* Gold */
+}
+
+.logo span {
+  font-weight: 300;
+  color: #ffffff;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  color: #C5A059;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+/* THE BENTO CONTAINER */
+.bento-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  padding: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* THE LARGER CIRCULAR CARDS */
+.bento-card {
+  background: #ffffff;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  border: 4px solid #C5A059;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.bento-card:hover {
+  transform: scale(1.05);
+}
+
+.bento-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.bento-card h3 {
+  color: #1B261E;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.price-tag {
+  color: #C5A059;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+/* THE CUTE BUTTON */
+.whatsapp-btn {
+  background-color: #25D366;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+  background-color: #1eb956;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  opacity: 0.6;
+  font-size: 0.8rem;
+}

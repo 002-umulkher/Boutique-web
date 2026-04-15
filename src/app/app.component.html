@@ -1,0 +1,27 @@
+<div class="shop-container">
+  <nav class="navbar">
+    <div class="logo">RUKIA's <span>BOUTIQUE</span></div>
+  </nav>
+
+  <header class="hero">
+    <h1>Elegant Modesty</h1>
+    <p>Beautiful Abayas & Hijabs for the modern woman.</p>
+  </header>
+
+  <div class="bento-container">
+    <div class="bento-card" *ngFor="let product of products">
+      <img [src]="product.img" [alt]="product.name">
+      <h3>{{ product.name }}</h3>
+      <p class="price-tag">{{ product.price }}</p>
+      
+      <button class="whatsapp-btn" (click)="order(product.name)">
+        Order on Whatsapp
+      </button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Nour Boutique | Built by Umulkher J</p>
+    <p>Phone No. +254 140 863 553</p>
+  </footer>
+</div>
