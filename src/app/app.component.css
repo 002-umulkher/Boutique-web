@@ -10,7 +10,7 @@
 
 /* NAVBAR & BRANDING */
 .navbar {
-  padding: 30px 50px;
+  padding: 30px 30px;
   display: flex;
   justify-content: center;
   border-bottom: 1px solid rgba(197, 160, 89, 0.2);
@@ -38,7 +38,7 @@ margin-top:15px ;
   border-radius: 20px;
   margin: 40px auto;
   width: 90%;
-  padding: 80px 20px;
+  padding: 50px 20px;
 }
 
 
